@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tentang Kampus</title>
+</head>
+<style>
+    body{
+        width: 100%;
+        margin:0;
+        background-color: #E9EAEC;
+    }
+    .menu{
+        width: 100%;
+        height: 100px;
+        background-color:#34495e;
+        position: fixed;
+        top: 0px;
+    }
+    .logo{
+        height: 80px ;
+        width: 70px;
+        margin-left: 50px;
+        margin-top: 10px;
+        position: fixed;
+    }
+    .tag{
+        height: fit-content;
+        width: fit-content;
+        float: left;
+        margin-left: 140px;
+        margin-top: 10px;
+        color: white;
+    }
+    .tableMenu{
+        color: white;
+        float: right;
+        margin-right: 150px;
+        margin-top: 35px;
+        font-size: medium;
+    }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   a:hover, a:active{
+       color:yellow;
+       text-decoration: underline;
+   }
+   .boxProfil{
+        height: 300px;
+        width: 100%;
+        /* background-color: lawngreen; */
+        margin-top: 170px;
+    }
+    .boxFotoProfil{
+        width: 100%;
+        height: 90px;
+        margin-top: 70px;
+    }
+    .boxEachF{
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+    }
+    .boxDes{
+        width: 200px;
+        height: 180px;
+        margin-top: 20px;
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+    .pagination{
+        display: inline;
+        margin-left: 35%;
+        
+    }
+    .pagination a{
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        color: black;
+    }
+    .pagination a.active{
+        background-color:#34495e ;
+        color: white;
+        border: 1px solid #34495e;
+    }
+    .pagination a:hover:not(.active) {background-color: #ddd;}
+    .footer{
+        width: 98%;
+        height: 18%;
+        float: right;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-style: solid;
+        border-color: #e6e6e6;
+        background-color: #34495e;
+        border-radius: 30px 0 30px 0;
+        color: white;  
+        bottom: 0px ;
+        margin-top: 300px;           
+    }
+</style>
+<body>
+    <div class="menu">
+        <img src="unud.png" class="logo">
+        <div class="tag">
+            <p style="font-size: larger;"><b>UNIVERSITAS UDAYANA</b><br>
+            <i>Unggul, Mandiri, Berbudaya</i></p>
+        </div>
+        <table cellpadding="20px" class="tableMenu">
+            <tr>
+                <td><a href="Web.html">Beranda</a></td>
+                <td><a href="Tentang.html">Tentang Kampus</a></td>
+                <td><a href="Profile.html">Profil Pengajar</a></td>
+                <td><a href="Kontak.html">Kontak</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="boxProfil">
+        <div class="boxFotoProfil">
+            <div class="boxEachF" style="float: left; margin-left: 120px;">
+                <img src="cowo.png" class="boxEachF">
+            </div>
+            <div class="boxEachF" style="float: left; margin-left: 150px;">
+                <img src="pengusaha.png" class="boxEachF">
+            </div>
+            <div class="boxEachF" style="float: left; margin-left: 180px;">
+                <img src="cowo.png" class="boxEachF">
+            </div>
+        </div>
+        <div class="boxDes" style="float: left; margin-left: 60px;">
+            <center>
+                Artha Aditya
+                <br>9878775548876875  
+                <br>artha.aditya@cs.unud.ac.id
+                <br>kedonganan
+            </center>
+        </div>
+        <div class="boxDes" style="float: left; margin-left: 50px;">
+            <center>
+                Marvent Febriyanto
+                <br>6545098154520976  
+                <br>marvent.febriyanto@cs.unud.ac.id
+                <br>banyuwangi
+            </center>
+        </div>
+        <div class="boxDes" style="float: left; margin-left: 60px;">
+            <center>
+                Sakti Yuliansyah 
+                <br>8623874358776234   
+                <br>sakti.yuliansyah@cs.unud.ac.id
+                <br>Renon
+            </center>
+        </div>
+    </div>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <div class="footer">
+    <center>
+        &copy; Copyright 2020. All Right Reserved <br>
+        Fakultas Matematika dan Ilmu Pengetahuan Alam <br>
+        Jurusan Ilmu Komputer <br>
+        Universitas Udayana
+    </center>
+</div>
+</body>
+</html>
